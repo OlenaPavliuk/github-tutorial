@@ -1,4 +1,43 @@
-body {
-    background-color: #fff;
-    color: #000;
+/* hero */
+
+.hero-title {
+    color: var(--title-text-color);
+}
+
+/* section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+.feature-list .link {
+    color: var(--accent-color);
+}
+
+/* work */
+
+.work-list .title {
+    color: var(--title-text-color);
+}
+
+/* button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
 }

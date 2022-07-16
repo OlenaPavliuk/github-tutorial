@@ -1,0 +1,42 @@
+/* осн текст  #000000 */
+/* втор текст rgba(0, 0, 0, 0.8) */
+/* белый #ffffff */
+/* акцент #18A0FB  */
+/* фон втор #F5F5F5 */
+
+
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color: #18A0FB;
+    --primary-white-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.logo:hover {
+    color: var(--accent-color);
+}
+/* site-nav */
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
